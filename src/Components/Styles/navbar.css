@@ -2,23 +2,29 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.container {
+.navbar {
+  height: 85px;
+  background-color: #232536;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  position: sticky;
+  top: 0;
+}
+
+.container-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
-.navbar {
-  height: 85px;
-  background-color: #232536;
-  position: relative;
-}
-
 .logo {
   margin-right: 30px;
+  margin-left: 60px;
 }
 
 .menu-icon {
@@ -65,12 +71,11 @@
 }
 
 @media (max-width: 768px) {
-  .nav-elements ul li:not(:last-child) {
+  .nav-links ul li:not(:last-child) {
     margin-right: 30px;
-    background-color: red;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .menu-icon {
     display: block;
     cursor: pointer;

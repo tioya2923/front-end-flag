@@ -1,0 +1,154 @@
+.all-posts {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-bottom: 85px;
+  max-width: 1500px;
+}
+
+.post-wrapper {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.post-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  margin-top: 25px;
+  border: rgb(110, 111, 158) solid 2px;
+  padding: 35px;
+}
+
+.post-card-active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+.post-image {
+  width: 90%;
+  height: 60%;
+  align-items: center;
+  position: absolute;
+  margin-bottom: 25px;
+}
+
+.post-all-overlay {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 410px;
+}
+
+.post-overlay {
+  position: absolute;
+  justify-content: space-between;
+  margin-right: 10px;
+  padding: 25px;
+  position: fixed;
+}
+
+.inline-post {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.post-by {
+  color: black;
+  margin-right: 6px;
+}
+
+.inline-post .post-by {
+  color: rgb(231, 210, 15);
+}
+
+.inline-post .line-post {
+  border-right: 2px solid #161515;
+  margin-right: 6px;
+  margin-left: 6px;
+  height: 20px;
+}
+
+.inline-post .date-post {
+  color: rgb(23, 22, 22);
+}
+
+.post-about {
+  color: #111111;
+  line-height: 20px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.post-desc {
+  color: #111111;
+  line-height: 18px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.post-read-more {
+  background-color: #FFD050;
+  padding: 16px 48px;
+  width: 204px;
+  height: 56px;
+  position: fixed;
+}
+
+.post-read-more-active:hover {
+  background-color: #b78b13;
+}
+
+.read-more-post {
+  color: #232536;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  position: fixed;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.pagination {
+  width: 30%;
+  height: 100%;
+}
+
+.posts-pagination {
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.pagination-text {
+  padding: 15px;
+  margin-top: 0px;
+}
+
+.pagination-text:hover {
+  background-color: rgb(107, 194, 127);
+}
+
+.pagination-text-active:hover {
+  background-color: rgb(219, 199, 143);
+}
+
+.viewAll {
+  width: 10%;
+  height: 100%;
+  background-color: yellowgreen;
+}/*# sourceMappingURL=featuredPost.css.map */

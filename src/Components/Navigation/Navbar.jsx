@@ -3,7 +3,6 @@ import Hamburger from 'hamburger-react';
 import { ReactComponent as Brand } from '../assets/icons/logo.svg';
 import { NavLink } from "react-router-dom";
 import {NavBtn, NavBtnLink} from './NavbarElements';
-
 import "../Styles/navbar.css";
 
 
@@ -20,7 +19,7 @@ const Navbar = () => {
     return (
 
         <nav className="navbar">
-            <div className="container">
+            <div className="container-navbar">
                 <div className="logo">
                 <Brand />
                 </div>
