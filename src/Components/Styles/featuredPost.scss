@@ -14,6 +14,14 @@
     position: relative;
     width: 50%;
     height: 100%;
+      
+    
+}
+
+.post-border {
+    border: rgb(110, 111, 158) solid 1px;
+    height: 100%;
+    margin-top: 25px;
     
 }
 
@@ -22,16 +30,16 @@
     // flex: 1;
     position: absolute;
     width: 100%;
-    height: 100%;
+    // height: 100%;
     // overflow: hidden;
     // border-radius: none;
     opacity: 0;
     // pointer-events: visible;
     // transform: none;
-    margin-top: 25px;
-    border: rgb(110, 111, 158) solid 2px;
+    // margin-top: 5px;
+   
     // background-color: red;
-    padding: 35px;
+    padding: 30px;
 }
 
 .post-card-active {
@@ -43,10 +51,10 @@
 
 .post-image {
     width: 90%;
-    height: 60%;
+    height: 90%;
     align-items: center;
     position: absolute;
-    margin-bottom: 25px;
+    // margin-bottom: 25px;
 
 }
 
@@ -67,8 +75,8 @@
     // background-color: rgb(182, 158, 158);
     position: absolute;
     // color: black;
-    justify-content: space-between;
-    margin-right: 10px;
+    // justify-content: space-between;
+    margin-right: 0px;
     padding: 25px;
     position: fixed;
 

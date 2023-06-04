@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import posts from '../Records/RecordsData.json';
+// import posts from '../Records/RecordsData.json';
 import '../Styles/featuredPost.css';
 
 
@@ -13,6 +13,7 @@ const Post = ({ posts }) => {
 
         <div className='all-posts'>
             <div className='post-wrapper'><h1>Postagem em destaque</h1>
+            <div className='post-border'>
                 {posts.map((post, index) => {
                     return (
                         <div key={index} className={index === isPost
@@ -21,6 +22,7 @@ const Post = ({ posts }) => {
                                 // width="100%"
                                 // height="100%"
                                 src={post.image} />
+                                <h4>{post.alt}</h4>
                             <div className='post-all-overlay'>
                                 <div className='post-overlay'>
                                     <div className='inline-post'>
@@ -53,7 +55,7 @@ const Post = ({ posts }) => {
                         </div>
                     )
                 })}
-
+            </div>
             </div>
             <div className='pagination'><h1>Todas as Publicações</h1>
             <div className='posts-pagination'>

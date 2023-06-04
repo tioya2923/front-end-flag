@@ -14,14 +14,17 @@
   height: 100%;
 }
 
+.post-border {
+  border: rgb(110, 111, 158) solid 1px;
+  height: 100%;
+  margin-top: 25px;
+}
+
 .post-card {
   position: absolute;
   width: 100%;
-  height: 100%;
   opacity: 0;
-  margin-top: 25px;
-  border: rgb(110, 111, 158) solid 2px;
-  padding: 35px;
+  padding: 30px;
 }
 
 .post-card-active {
@@ -32,10 +35,9 @@
 
 .post-image {
   width: 90%;
-  height: 60%;
+  height: 90%;
   align-items: center;
   position: absolute;
-  margin-bottom: 25px;
 }
 
 .post-all-overlay {
@@ -49,8 +51,7 @@
 
 .post-overlay {
   position: absolute;
-  justify-content: space-between;
-  margin-right: 10px;
+  margin-right: 0px;
   padding: 25px;
   position: fixed;
 }
