@@ -1,0 +1,66 @@
+.all-autores {
+  width: 1400px;
+  height: 250px;
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-bottom: 185px;
+}
+
+.autores-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.autores-wrapper {
+  position: relative;
+}
+
+.autores-border {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.autor-card {
+  justify-content: space-between;
+  padding: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 400px;
+  height: 350px;
+  position: relative;
+  overflow: visible;
+  min-width: 300px;
+  flex-shrink: unset;
+  cursor: pointer;
+  background-color: #f0e2e2;
+}
+
+.autor-card:hover {
+  background-color: rgb(182, 212, 227);
+}
+
+.autor-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.autor-name {
+  font-size: 28px;
+  text-align: center;
+}
+
+.autor-content {
+  font-size: 20px;
+  text-align: center;
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 25px;
+}/*# sourceMappingURL=autores.css.map */

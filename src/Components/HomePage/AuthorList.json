@@ -1,0 +1,82 @@
+[
+    {
+        "autorId": 0,
+        "foto": "../assets/images/autor1.jpg",
+        "name": "Anna Miles",
+        "content": "Content Writer @Company",
+        "facebook": "../assets/icons/facebook.png",
+        "twitter": "../assets/icons/twitter.png",
+        "inst": "../assets/icons/instagram.png",
+        "linkedin": "../assets/icons/linkedin.png"
+    },
+    {
+        "categoryId": 1,
+        "foto": "../assets/images/autor2.jpg",
+        "name": "Dianne Russell",
+        "content": "Content Writer @Company",
+        "facebook": "../assets/icons/facebook.png",
+        "twitter": "../assets/icons/twitter.png",
+        "inst": "../assets/icons/instagram.png",
+        "linkedin": "../assets/icons/linkedin.png"
+    },
+    {
+        "categoryId": 2,
+        "foto": "../assets/images/autor3.jpg",
+        "name": "Jenny Wilson",
+        "content": "Content Writer @Company",
+        "facebook": "../assets/icons/facebook.png",
+        "twitter": "../assets/icons/twitter.png",
+        "inst": "../assets/icons/instagram.png",
+        "linkedin": "../assets/icons/linkedin.png"
+    },
+    {
+        "categoryId": 3,
+        "foto": "../assets/images/autor4.jpg",
+        "name": "Leslie Alexander",
+        "content": "Content Writer @Company",
+        "facebook": "../assets/icons/facebook.png",
+        "twitter": "../assets/icons/twitter.png",
+        "inst": "../assets/icons/instagram.png",
+        "linkedin": "../assets/icons/linkedin.png"
+    },
+    {
+        "categoryId": 4,
+        "foto": "../assets/images/autor5.jpg",
+        "name": "Floyd Miles",
+        "content": "Content Writer @Company",
+        "facebook": "../assets/icons/facebook.png",
+        "twitter": "../assets/icons/twitter.png",
+        "inst": "../assets/icons/instagram.png",
+        "linkedin": "../assets/icons/linkedin.png"
+    },
+    {
+        "categoryId": 5,
+        "foto": "../assets/images/autor6.jpg",
+        "name": "Floyd Miles",
+        "content": "Content Writer @Company",
+        "facebook": "../assets/icons/facebook.png",
+        "twitter": "../assets/icons/twitter.png",
+        "inst": "../assets/icons/instagram.png",
+        "linkedin": "../assets/icons/linkedin.png"
+    },
+    {
+        "categoryId": 6,
+        "foto": "../assets/images/autor7.jpg",
+        "name": "Floyd Miles",
+        "content": "Content Writer @Company",
+        "facebook": "../assets/icons/facebook.png",
+        "twitter": "../assets/icons/twitter.png",
+        "inst": "../assets/icons/instagram.png",
+        "linkedin": "../assets/icons/linkedin.png"
+    },
+    {
+        "categoryId": 7,
+        "foto": "../assets/images/autor8.jpg",
+        "name": "Floyd Miles",
+        "content": "Content Writer @Company",
+        "facebook": "../assets/icons/facebook.png",
+        "twitter": "../assets/icons/twitter.png",
+        "inst": "../assets/icons/instagram.png",
+        "linkedin": "../assets/icons/linkedin.png"
+    }
+]

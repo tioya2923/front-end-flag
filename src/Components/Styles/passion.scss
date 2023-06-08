@@ -1,0 +1,79 @@
+.all-passion {
+    display: flex;
+    height: 700px;
+    width: 1400px;
+    // border: red solid 4px;
+    margin-bottom: 85px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.passion {
+    display: flex;
+}
+
+.foto-passion{
+    object-fit: cover;
+    
+}
+
+
+
+.overlay-passion {
+    height:75%;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 150px;
+    // background-color: red;
+    // position: fixed;
+    background-color: #FFFFFF;
+
+}
+
+.overlay {
+    width: 100%;
+    padding: 50px 50px;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 700px;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.why-passion {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.title-passion {
+
+    margin-bottom: 40px;
+    line-height: 50px;
+    font-size: 30px;
+
+}
+
+.desc-passion {
+    margin-bottom: 40px;
+}
+
+.discover-passion {
+    width: 250px;
+    height: 55px;
+    background-color: #FFD050;
+    padding: 16px;
+    color: #232536;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+}
+
+.discover-passion:active {
+    background-color: rgb(52, 38, 3);
+    color: aliceblue;
+    
+}

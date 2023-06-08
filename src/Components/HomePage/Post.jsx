@@ -69,6 +69,8 @@ const Post = ({ posts }) => {
                                 <div className='post-by'>
                                     <h3 style={{ color: 'black' }}>By</h3>
                                 </div>
+                                 
+                        
 
                                 <div className='inline-post post-by'>
                                     <h3> {page.by}</h3>

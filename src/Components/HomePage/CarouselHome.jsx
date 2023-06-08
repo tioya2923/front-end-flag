@@ -65,9 +65,7 @@ const CarouselHome = ({ elements }) => {
                                         <div className='inline card-by'>
                                             <h3>{element.by}</h3>
                                         </div>
-                                        <div className='inline line'>
-
-                                        </div>
+                                        <div className='inline line'></div>
                                         <div className='inline card-date'>
                                             <h3>{element.date}</h3>
                                         </div>

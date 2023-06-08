@@ -1,0 +1,56 @@
+[
+    {   
+        "categoryId": 0,
+        "icon": "../assets/icons/biblia.png",
+        "title": "Bible",
+        "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+
+    {   
+        "categoryId": 1,
+        "icon": "../assets/icons/igreja.png",
+        "title": "Church",
+        "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+
+    {   
+        "categoryId": 2,
+        "icon": "../assets/icons/rosario.png",
+        "title": "Rosary",
+        "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+
+    {   
+        "categoryId": 3,
+        "icon": "../assets/icons/tecnologia.png",
+        "title": "Technology",
+        "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+
+    {   
+        "categoryId": 4,
+        "icon": "../assets/icons/ferias.png",
+        "title": "Vocation",
+        "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+
+    {   
+        "categoryId": 5,
+        "icon": "../assets/icons/lazer.png",
+        "title": "Lazer",
+        "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+
+    {   
+        "categoryId": 6,
+        "icon": "../assets/icons/business.png",
+        "title": "Business",
+        "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {   
+        "categoryId": 7,
+        "icon": "../assets/icons/economia.png",
+        "title": "Economy",
+        "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    }
+]
