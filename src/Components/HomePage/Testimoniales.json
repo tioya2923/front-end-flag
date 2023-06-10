@@ -1,7 +1,7 @@
 [
     {
         "autorId": 0,
-        "testemunho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "testemunho": "1fsgggfgLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "foto": "../assets/images/autor1.jpg",
         "name": "Anna Miles",
         "city": "New york, USA"
@@ -9,51 +9,51 @@
     },
     {
         "categoryId": 1,
-        "testemunho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "testemunho": "sffff2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "foto": "../assets/images/autor2.jpg",
-        "name": "Anna Miles",
+        "name": "Maia Antunes",
         "city": "Lisboa, Portugal"
     },
     {
         "categoryId": 2,
-        "testemunho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "testemunho": "xzfxfffLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "foto": "../assets/images/autor3.jpg",
-        "name": "Anna Miles",
-        "city": "Rio de Janeiro, Brazil"
+        "name": "Isabel Dumba",
+        "city": "Baia, Brazil"
     },
     {
         "categoryId": 3,
-        "testemunho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "testemunho": "zxfffxcfLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "foto": "../assets/images/autor4.jpg",
-        "name": "Anna Miles",
+        "name": "Mary Tchilombo",
         "city": "Lubango, Angola"
     },
     {
         "categoryId": 4,
         "testemunho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "foto": "../assets/images/autor5.jpg",
-        "name": "Anna Miles",
+        "name": "Joana Kahumbo",
         "city": "Huambo, Angola"
     },
     {
         "categoryId": 5,
-        "testemunho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "testemunho": "xvxfxvLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "foto": "../assets/images/autor6.jpg",
-        "name": "Anna Miles",
+        "name": "Tetinha Ngueve",
         "city": "New york, USA"
     },
     {
         "categoryId": 6,
-        "testemunho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "testemunho": "xgxgvxLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "foto": "../assets/images/autor7.jpg",
-        "name": "Anna Miles",
+        "name": "Fifinha António",
         "city": "New york, USA"
     },
     {
         "categoryId": 7,
-        "testemunho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "testemunho": "gxxxLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "foto": "../assets/images/autor8.jpg",
-        "name": "Anna Miles",
+        "name": "Carla da Fonseca",
         "city": "New york, USA"
     }
 ]

@@ -9,6 +9,7 @@ export const NavBtn = styled.nav`
   justify-content: flex-end;
   margin-left: 45px;
   
+  
 `;
   
 export const NavBtnLink = styled(Link)`
@@ -22,4 +23,5 @@ export const NavBtnLink = styled(Link)`
   align-items: center; 
   font-weight: 700;
   font-size: 25px;
+  
 `;

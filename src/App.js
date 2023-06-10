@@ -8,7 +8,9 @@ import Contact from "./Components/Pages/Contact";
 import Subscribe from "./Components/Pages/Subscribe";
 import FooterPage from "./Components/Footer/FooterPage";
 import Privacy from "./Components/Pages/Privacy";
-import PostPage from "./Components/Pages/PostPage";
+
+// import PostPage from "./Components/Pages/PostPage";
+
 
 
 function App() {
@@ -17,14 +19,16 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" Component={Home}/>
+        {/* <Route path="/posts/:postId" Component={Blog}/> */}
+        {/* <Route path="/blog/:blogId" Component={Blog}/> */}
         <Route path="blog" Component={Blog}/>
         <Route path="about" Component={About}/>
         <Route path="contact" Component={Contact} />
         <Route path="subscribe" Component={Subscribe} />
         <Route path="privacy" Component={Privacy}/>
-        <Route path="/posts/:postId" Component={PostPage}/>
+        
       </Routes>
-      <FooterPage />
+      <FooterPage/>
     </Router>
   );
 }

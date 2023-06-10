@@ -3,8 +3,8 @@
     height: 600px;
     margin-left: 85px;
     margin-right: 85px;
-    margin-bottom: 185px;
-    background-color: red;
+    margin-bottom: 85px;
+    background-color: #FBF6EA;
     padding: 45px;
     // position: absolute;
     // position: relative;
@@ -13,13 +13,15 @@
 .wrapper-testemunho {
     display: flex;
     flex-direction: row;
+    padding: 45px;
 }
 
 .testemunhas1 {
     display: flex;
     flex-direction: column;
-    width: 45%;  
-    height: 400px;  
+    width: 35%;
+    height: 400px;
+    margin-right: 85px;
 }
 
 .testemunho-title {
@@ -34,26 +36,125 @@
 
 .desc-testemunho {
     font-size: 20px;
+    text-align: justify;
 }
 
-.testemunhas {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-     
+.testemunha-divisa{
+    width: 30px;
+    border-left: solid 1px #6D6E76;
+    // background-color: black;
 }
+
+// .testemunhas {
+//     display: flex;
+//     flex-direction: column;
+//     width: 10%;
+
+// }
 
 .testemunho-card {
     justify-content: space-between;
-    padding: 25px;
+    // padding: 25px;
     position: absolute;
-    overflow: visible;  
+    overflow: visible;
+    flex: 1;
+    overflow: hidden;
+    opacity: 0;
 
+}
+
+.testemunho-card-active {
+    opacity: 1;
+    pointer-events: visible;
 }
 
 .testemunho {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    // background-color: yellow;
     height: 400px;
+    width: 600px;
+    margin-left: 50px;
+
+}
+
+.testemunho-text {
+    font-size: 26px;
+    margin-bottom: 120px;
+    text-align: justify;
+    position: relative;
+    // background-color: red;
+    height: 150px;
+}
+
+.testemunho-inline {
+    display: flex;
+    flex-direction: row;
+    // margin-top: 20px;
+    // position: relative;
+    // opacity: 1;
+}
+
+.testemunho-person {
+    margin-right: 15px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.testemunho-name {
+    font-size: 24px;
+    color: #232536;
+}
+
+.testemunho-city {
+    font-size: 16px;
+    color: #6D6E76;
+}
+
+// .testemunho-direction {
+//     margin-left: 150px;
+//     margin-top: 75px;
+//     // position: fixed;
+   
+// }
+
+.testemunhos-arrow-left, 
+.testemunhos-arrow-right {
+position: absolute;
+font-size: 40px;
+top: 85%;
+transform: translate(0, -50%);
+background-color: none;
+display: flex;
+// justify-content: center;
+align-items: center;
+width: 50px;
+height: 50px;
+cursor: pointer;
+justify-content: space-between;
+}
+
+.testemunhos-arrow-left {
+    right: 85px;
+}
+
+.testemunhos-arrow-right {
+    right: 0;
+}
+
+.testemunhos-arrow-left:hover,
+.testemunhos-arrow-right:hover
+{
+    background-color: #232536;
+    border-radius: 50%;
+    position: absolute;
+    color: #FFF;
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+
 }

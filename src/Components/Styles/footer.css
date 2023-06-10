@@ -5,29 +5,116 @@
 }
 
 .footer {
-  height: 85px;
-  background-color: #232536;
+  height: 600px;
   position: relative;
   bottom: 0 !important;
-  right: 0;
+  right: 85px;
   left: 0;
   top: 85px;
 }
 
 .container-footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
   height: 100%;
+  padding: 50px;
+  background-color: #232536;
 }
 
-.logo {
-  margin-right: 30px;
-  margin-left: 60px;
+.first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.menu-icon {
-  display: none;
+.logo-footer {
+  margin-right: 60px;
+}
+
+.nav-links-footer {
+  margin-left: 300px;
+}
+
+.footer-subscribe {
+  background-color: #2f3042;
+  width: 1400px;
+  height: 300px;
+  margin-left: 45px;
+  margin-right: 85px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.text-subscribe {
+  font-size: 26px;
+  width: 40%;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 35px;
+  color: #FFFFFF;
+}
+
+.subscribe-email {
+  width: 400px;
+  height: 70px;
+  margin-top: 70px;
+  margin-right: 50px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.subscribe-buttom {
+  margin-top: 70px;
+  background-color: #FFD050;
+  width: 250px;
+  height: 70px;
+}
+
+.sub {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.address-footer {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 28px;
+  width: 50%;
+  float: left;
+}
+
+.sociais-icons {
+  margin-right: 40px;
+  width: 50%;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin-left: 850px;
+  height: 60px;
+  padding-top: 5px;
+}
+
+.facebook, .twitter, .instagram {
+  margin-right: 25px;
+  height: 75px;
+  width: 350px;
+}
+
+.linkedin {
+  height: 150px;
 }
 
 .nav-links-footer ul {
@@ -57,39 +144,4 @@
 .nav-links-footer ul a:hover {
   background-color: #ffffff;
   color: #000000;
-}
-
-@media (max-width: 768px) {
-  .nav-links-footer ul li:not(:last-child) {
-    margin-right: 30px;
-  }
-}
-@media (max-width: 900px) {
-  .menu-icon {
-    display: block;
-    cursor: pointer;
-    background-color: #FFFFFF;
-  }
-  .nav-links-footer {
-    position: absolute;
-    right: 0;
-    top: 60px;
-    background-color: #232536;
-    width: 0px;
-    height: calc(100vh - 60px);
-    transition: all 0.3s ease-in;
-    overflow: hidden;
-  }
-  .nav-links-footer.active {
-    width: 270px;
-  }
-  .nav-links-footer ul {
-    display: flex;
-    flex-direction: column;
-  }
-  .nav-links-footer ul li {
-    margin-right: unset;
-    margin-top: 25px;
-    margin-left: 15px;
-  }
 }/*# sourceMappingURL=footer.css.map */
