@@ -1,7 +1,7 @@
 .all-categories {
     width: 1400px;
     height: 250px;
-    margin-left: 85px;
+    margin-left: 285px;
     margin-right: 85px;
     margin-bottom: 185px;
 
@@ -72,29 +72,76 @@ img {
 
 .category-title {
     font-size: 26px;
-    margin-bottom: 25px;    
+    margin-bottom: 25px;
 }
 
-// .category-arrow-left,
-// .category-arrow-right {
-//    position: absolute;
-//    font-size: 70px;
-// //    top: 0px;
-//    transform: translate(0, -50%);
-//    display: flex;
-//    justify-content: center;
-//    align-items: center;
-//    width: 40px;
-//    height: 40px;
-//    border-radius: 50%;
-//    padding-top: 70px;
-//    cursor: pointer;
-// }
+@media (max-width: 1200px) {
 
-// .category-arrow-left {
-//     left: 650px;
-// }
+    .all-categories {
+        width: 1200px;
+        height: 250px;
+        margin-left: 85px;
+        margin-right: 85px;
+        margin-bottom: 185px;
 
-// .category-arrow-right {
-//     right: 650px;
-// }
+       
+
+
+    }
+
+
+    .category-card {
+        border: 1px #6D6E76 solid;
+        justify-content: space-between;
+        padding: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 250px;
+        position: relative;
+        overflow: visible;
+        min-width: 265px;
+        flex-shrink: unset;
+        cursor: pointer;
+
+    }
+}
+
+.category-title {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 512px) {
+
+    .all-categories {
+        width: 1200px;
+        height: 250px;
+        margin-left: 85px;
+        margin-right: 85px;
+        margin-bottom: 185px; 
+    }
+
+    .category-border {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        width: 100%;
+    }
+    
+
+
+    .category-card {
+        border: 1px #6D6E76 solid;
+        justify-content: space-between;
+        padding: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 250px;
+        position: relative;
+        overflow: visible;
+        min-width: 265px;
+        flex-shrink: unset;
+        cursor: pointer;
+
+    }
+}

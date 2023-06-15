@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    height: 85px;
+    background-color: #232536;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    margin-right: 30px;
+    margin-left: 60px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+// .nav-links
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+.nav-links ul li:not(:last-child) {
+    margin-right: 60px;
+}
+
+.nav-links ul a {
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-links ul a.active {
+    color: #19bb37;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-links ul a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #b71010;
+}
+
+.nav-links ul a:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+//  FOR MOBILE 
+
+@media (max-width: 1200px) {
+    .nav-links ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        background-color: #FFFFFF;
+}
+    .nav-links {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #232536;
+        width: 0px;
+        height: 600px;
+        height: calc( 100vh - 60px );
+        transition: all 0.3s ease-in;
+     
+}
+    .nav-links.active {
+        width: 270px;
+}
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+}
+    .nav-links ul li {
+        margin-right: unset;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        background-color: #FFFFFF;
+       
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #232536;
+        width: 512px;
+        height: 600px;
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+        position: absolute;
+        
+    }
+
+    .nav-links.active {
+        width: 270px;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links ul li {
+        margin-right: unset;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+}

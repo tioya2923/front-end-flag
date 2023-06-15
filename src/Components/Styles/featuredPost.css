@@ -1,15 +1,15 @@
 .all-posts {
   display: flex;
-  height: 700px;
-  margin-left: 85px;
+  height: 730px;
+  margin-left: 295px;
   margin-right: 85px;
   margin-bottom: 150px;
-  max-width: 1500px;
+  max-width: 1440px;
 }
 
 .post-wrapper {
   position: relative;
-  width: 50%;
+  width: 40%;
   height: 100%;
 }
 
@@ -17,13 +17,13 @@
   border: rgb(110, 111, 158) solid 1px;
   height: 100%;
   margin-top: 25px;
+  width: 100%;
 }
 
 .post-card {
   position: absolute;
   width: 100%;
   opacity: 0;
-  padding: 30px;
 }
 
 .post-card-active {
@@ -49,8 +49,8 @@
 }
 
 .post-overlay {
-  position: absolute;
   margin-right: 0px;
+  margin-top: 30px;
   padding: 25px;
   position: fixed;
 }
@@ -97,9 +97,10 @@
 .post-read-more {
   background-color: #FFD050;
   padding: 16px 48px;
-  width: 204px;
-  height: 56px;
+  width: 180px;
+  height: 36px;
   position: fixed;
+  margin-top: 10px;
 }
 
 .post-read-more-active:hover {
@@ -150,5 +151,24 @@ a:-webkit-any-link {
 .viewAll {
   width: 10%;
   height: 100%;
-  background-color: yellowgreen;
+  margin-left: 85px;
+}
+
+@media (max-width: 1200px) {
+  .all-posts {
+    display: flex;
+    height: 730px;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 150px;
+    max-width: 1200px;
+  }
+}
+@media (max-width: 512px) {
+  .all-posts {
+    display: flex;
+    height: 730px;
+    margin-bottom: 150px;
+    max-width: 512px;
+  }
 }/*# sourceMappingURL=featuredPost.css.map */

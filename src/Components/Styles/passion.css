@@ -3,8 +3,8 @@
   height: 700px;
   width: 1400px;
   margin-bottom: 85px;
-  margin-left: 85px;
-  margin-right: 85px;
+  margin-left: 285px;
+  margin-right: 185px;
 }
 
 .passion {
@@ -67,4 +67,38 @@
 .discover-passion:active {
   background-color: rgb(52, 38, 3);
   color: aliceblue;
+}
+
+.discover-passion:hover {
+  background-color: rgb(165, 121, 9);
+}
+
+@media (max-width: 1200px) {
+  .all-passion {
+    display: flex;
+    height: 700px;
+    width: 900px;
+    margin-bottom: 85px;
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+  .overlay-passion {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 140px;
+    background-color: #FFFFFF;
+  }
+  .discover-passion {
+    width: 230px;
+    height: 55px;
+    background-color: #FFD050;
+    padding: 10px;
+    color: #232536;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=passion.css.map */

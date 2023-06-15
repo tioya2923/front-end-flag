@@ -48,7 +48,7 @@ const Post = ({ posts }) => {
                                         </div>
                                         <div className='post-read-more'>
                                             {/* <Link className='read-more-post' to={'/blog/' + post.blogId}>Read More</Link> */}
-                                            <NavLink className='read-more-post' to={'/post/' + post.blogId}>
+                                            <NavLink className='read-more-post' to={'/post/' + post.type}>
                                                 Read More</NavLink>
 
                                         </div>
@@ -91,7 +91,7 @@ const Post = ({ posts }) => {
                 </div>
             </div>
             <div className='viewAll'>
-                <h2>View All</h2>
+                <NavLink><h2>View All</h2></NavLink>
             </div>
         </div>
 

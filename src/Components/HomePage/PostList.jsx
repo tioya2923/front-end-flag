@@ -9,7 +9,7 @@ const PostList = [
     date: "Maio, 2023",
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
-    image: "../assets/images/Amsterdam-Sign.jpg",
+    image: "../assets/images/biblia.jpg",
     alt: "Amsterdã, Holanda",
     read: "Amsterdã Read More Lorem ipsum.",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
@@ -30,7 +30,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Buenos Aires Read More Lorem ipsum dolor",
-    image: "../assets/images/Buenos-Aires-Argentina.jpg",
+    image: "../assets/images/igreja.jpg",
     alt: "Buenos Aires, Argentina",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"
@@ -63,7 +63,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Cidade do Cabo Read More Lorem ipsum dolor ",
-    image: "../assets/images/Cape-Town-South-Africa.jpg",
+    image: "../assets/images/rosario.jpg",
     alt: "Cidade do Cabo, África do Sul",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"
@@ -81,7 +81,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Nova York Read More Lorem ipsum dolor ",
-    image: "../assets/images/new-york-city.jpg",
+    image: "../assets/images/tecnoliga.jpg",
     alt: "Nova York, Estados Unidos",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"
@@ -98,7 +98,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Paris Read More Lorem ipsum dolor ",
-    image: "../assets/images/Paris.jpg",
+    image: "../assets/images/viagens.jpg",
     alt: "Paris, França",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"
@@ -118,7 +118,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Petersburgo Read More Lorem ipsum dolor ",
-    image: "../assets/images/Petersburg-Russia.jpg",
+    image: "../assets/images/cafe.jpg",
     alt: "Petersburgo, Rússia",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"
@@ -135,7 +135,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Rio de Janeiro Read More Lorem ipsum dolor ",
-    image: "../assets/images/Rio-De-Janerio-Brazil.jpg",
+    image: "../assets/images/autor7.jpg",
     alt: "Rio de Janeiro, Brasil",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"
@@ -152,7 +152,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Roma Read More Lorem ipsum dolor ",
-    image: "../assets/images/Rome-the-Colosseum.jpg",
+    image: "../assets/images/tecnoliga.jpg",
     alt: "Roma, Itália",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"
@@ -168,7 +168,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Cingapura Read More Lorem ipsum dolor ",
-    image: "../assets/images/Singapore.jpg",
+    image:"../assets/images/reuniao.jpg",
     alt: "Cingapura, Cingapura",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"
@@ -185,7 +185,7 @@ const PostList = [
     desc: "Washington DC é a capital dos Estados Unidos da América e é uma das cidades mais bonitas e historicamente significativas do mundo",
     about: "Recusandae doloremque at quasi reprehenderit, iure provident tempora officia quae iste quaerat tenetur nemo delectus quas explicabo. ",
     read: "Washington DC Read More Lorem ipsum dolor ",
-    image: "../assets/images/Washington-DC.jpg",
+    image: "../assets/icons/tecnologia.png",
     alt: "Washington DC, Estados Unidos",
     mission: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     descMission: "10Aperiam soluta velit quis, esse modi aliquam quas molestias quasi consequuntur. Necessitatibus repudiandae quod eos soluta labore, earum veritatis ducimus error modi?"

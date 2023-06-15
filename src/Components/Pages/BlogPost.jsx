@@ -1,23 +1,74 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import ReactPaginate from 'react-paginate';
 import '../Styles/postBlog.css';
-import Paginate from './Paginate';
+
+import category from '../HomePage/ListCategorias.json' 
 
 const BlogPost = ({ blogs }) => {
 
     const [isBlog, setIsBlog] = useState(0);
+    const [isActive, setIsActive] = useState(0);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage] = useState(5);
+    const [itemsPerPage, setItemsPerPage] = useState(5);
 
-    const indexOfLastPost = currentPage * postsPerPage;
-	const indexOfFirstPost = indexOfLastPost - postsPerPage;
-	const currentPosts = blogs.slice(indexOfFirstPost, indexOfLastPost);
+    const [pageNumberLimit, setpageNumberLimit] = useState(5);
+    const [maxPageNumberLimit, setMaxPageNumberLimit] = useState(5);
+    const [minPageNumberLimit, setMinPageNumberLimit] = useState(0);
 
-    const paginate = ({ selected }) => {
-		setCurrentPage(selected + 1);
-	};
+    const handleClick = (event) => {
+        setCurrentPage(Number(event.target.id));
+    }
+
+
+
+    const pages = [];
+    for (let i = 1; i <= Math.ceil(blogs.length / itemsPerPage); i++) {
+        pages.push(i);
+    }
+
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstIem = indexOfLastItem - itemsPerPage;
+    const currentItems = blogs.slice(indexOfFirstIem, indexOfLastItem)
+
+    const renderPageNumbers = pages.map(number => {
+
+        if (number < maxPageNumberLimit + 1 && number > minPageNumberLimit) {
+            return (
+                <li key={number} id={number} onClick={handleClick}
+                    className={currentPage === number ? "active" : null}>
+                    {number}
+                </li>
+            );
+        } else {
+            return null;
+        }
+
+
+    });
+
+    const handleNextbtn = () => {
+        setCurrentPage(currentPage + 1);
+
+        if (currentPage + 1 > maxPageNumberLimit) {
+            setMaxPageNumberLimit(maxPageNumberLimit + pageNumberLimit);
+            setMinPageNumberLimit(minPageNumberLimit + pageNumberLimit)
+        }
+    };
+
+    const handlePrevbtn = () => {
+
+        setCurrentPage(currentPage - 1);
+
+        if ((currentPage - 1 )%pageNumberLimit == 0) {
+            setMaxPageNumberLimit(maxPageNumberLimit - pageNumberLimit);
+            setMinPageNumberLimit(minPageNumberLimit - pageNumberLimit)
+        }
+
+    };
+
+   
+
 
 
     return (
@@ -47,8 +98,10 @@ const BlogPost = ({ blogs }) => {
                                             </div>
                                         </div>
                                         <div className='blog-desc'><h3>{blog.desc}</h3> </div>
-                                        <NavLink className='read-more-blog' to={'/blog/' + blog.blogId}>
+                                        <NavLink className='read-more-blog' to={'/blog/' + blog.type}>
                                             Read More</NavLink>
+
+                                            
                                     </div>
                                     <div className='image-blog'>
                                         <img src={blog.image} />
@@ -61,9 +114,11 @@ const BlogPost = ({ blogs }) => {
             </div>
 
             <div className='pagination-blog'><h1>All posts</h1>
+
                 <div className='blogs-pagination'>
-                    {blogs.map((bl, index) => {
+                    {currentItems.map((bl, index) => {
                         return (
+
                             <div key={index} className={index === isBlog
                                 ? "pagination-all pagination-all-active" : "pagination-all"
 
@@ -82,35 +137,73 @@ const BlogPost = ({ blogs }) => {
                                     </div>
                                 </div>
 
-                                
+
                             </div>
                         )
                     })}
+
                 </div>
 
-                <Paginate
-						onPageChange={paginate}
-						pageCount={Math.ceil(isBlog.length / postsPerPage)}
-						previousLabel={'Prev'}
-						nextLabel={'Next'}
-						containerClassName={'pagination'}
-						pageLinkClassName={'page-number'}
-						previousLinkClassName={'page-number'}
-						nextLinkClassName={'page-number'}
-						activeLinkClassName={'active'}
-					/>
-                
+
+
+
+
 
 
             </div>
 
 
-          
+
+            <div>
+                    <ul className="pageNumbers">
+                        <li>
+                            <button
+                                onClick={handlePrevbtn}
+                            >
+                                Prev
+                            </button>
+                        </li>
+                     
+                        <li>
+                            <button
+                                onClick={handleNextbtn}
+                            >
+                                Next
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+            <div className='all-categories'>
+                <div className='title'><h1 >All Catagory</h1></div>
+                <div className='category-wrapper'>
+                    <div className='category-border'>
+                        {category.map((categ, index) => {
+                            return (
+                                <div key={index} className={index === isActive
+                                    ? "category-card category-card-active" : "category-card"
+                                }>
+                                    <div className='category-icon'><img src={categ.icon} /></div>
+
+                                    <div className='category-post'>
+                                        <div className='category-title'><h2>{categ.title}</h2></div>
+                                        <div className='category-desc'><h3>{categ.desc}</h3></div>
+                                    </div>
+
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
 
 
+
+
+
+            </div>
 
         </div>
     )
 }
 
-export default BlogPost
+export default BlogPost;

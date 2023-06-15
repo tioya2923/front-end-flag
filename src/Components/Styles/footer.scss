@@ -11,7 +11,12 @@
     bottom: 0 !important;
     right: 85px;
     left: 0;
-    top: 85px;
+    top: 85px;    
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    position: -webkit-sticky;
+   
 
 }
 

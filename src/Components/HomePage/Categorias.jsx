@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../Styles/category.css';
 
 
+
 const Categorias = ({ category }) => {
     const [isActive, setIsActive] = useState(0);
 

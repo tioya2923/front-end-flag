@@ -1,44 +1,120 @@
 [
     {
         "blogId": 0,
-        "title" : "Featured Post",
+        "title" : "Bíblia Sagrada",
         "largetitle" : "Step-by-step guide to choosing great font pairs",
         "by" : "John Doe", 
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "type" : "Bible",
-        "image": "../assets/images/biblia.jpg"      
+        "image": "../assets/images/biblia.jpg",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor1.jpg",
+        "name": "Anna Miles",
+        "icon": "../assets/icons/biblia.png",
+        "titleIcon": "Bible"   
        
     },
     {
         "blogId": 1,
-        "title" : "Featured Post",
+        "title" : "Templo de Deus",
         "largetitle" : "Step-by-step guide to choosing great font pairs",
         "by" : "John Doe", 
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/igreja.jpg",
-        "type" : "Church" 
+        "type" : "Church",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor2.jpg",
+        "name": "Dianne Russell",
+        "icon": "../assets/icons/igreja.png",
+        "titleIcon": "Church"
+ 
     },
     {
         "blogId": 2,
-        "title" : "Featured Post",
+        "title" : "O Santo Rosário",
         "largetitle" : "Step-by-step guide to choosing great font pairs",
         "by" : "John Doe", 
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/rosario.jpg",
-        "type" : "Rosary" 
+        "type" : "Rosary",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor4.jpg",
+        "name": "Leslie Alexander",
+        "icon": "../assets/icons/rosario.png",
+        "titleIcon": "Rosary"
+        
+ 
     },
     {
         "blogId": 3,
-        "title" : "Featured Post",
+        "title" : "Tecnologia",
         "largetitle" : "Step-by-step guide to choosing great font pairs",
         "by" : "John Doe", 
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/tecnoliga.jpg",
-        "type" : "Technology" 
+        "type" : "Technology",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor5.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/tecnologia.png",
+        "titleIcon": "Technology"
+ 
     },
     {
         "blogId": 4,
@@ -48,7 +124,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/viagens.jpg",
-        "type" : "Vocation" 
+        "type" : "Vocation",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor6.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/ferias.png",
+        "titleIcon": "Vocation"
+ 
     },
     {
         "blogId": 5,
@@ -58,7 +153,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/cafe.jpg",
-        "type" : "Lazer" 
+        "type" : "Lazer",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor7.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/lazer.png",
+        "titleIcon": "Lazer"
+ 
     },
     {
         "blogId": 6,
@@ -67,8 +181,27 @@
         "by" : "John Doe", 
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
-        "image": "../assets/images/negocio.jpg",
-        "type" : "Business" 
+        "image": "../assets/images/tecnoliga.jpg",
+        "type" : "Business",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor8.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/business.png",
+        "titleIcon": "Business"
+ 
     },
     {
         "blogId": 7,
@@ -78,7 +211,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/reuniao.jpg",
-        "type" : "Economy" 
+        "type" : "Economy",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor1.jpg",
+        "name": "Anna Miles",
+        "icon": "../assets/icons/economia.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -89,7 +241,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/fazendo.jpg",
-        "type" : "Startup" 
+        "type" : "Startup",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor2.jpg",
+        "name": "Dianne Russell",
+        "icon": "../assets/icons/tecnologia.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -100,7 +271,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/carro.jpg",
-        "type" : "Car" 
+        "type" : "Car",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor3.jpg",
+        "name": "Jenny Wilson",
+        "icon": "../assets/icons/lazer.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -111,7 +301,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/cultura.jpg",
-        "type" : "Cultura" 
+        "type" : "Cultura",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor4.jpg",
+        "name": "Leslie Alexander",
+        "icon": "../assets/icons/economia.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -122,7 +331,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/transporte.jpg",
-        "type" : "transporte" 
+        "type" : "transporte",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor5.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/economia.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -133,7 +361,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/desporto.jpg",
-        "type" : "Desporto" 
+        "type" : "Desporto",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor6.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/biblia.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -144,7 +391,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/leitura.jpg",
-        "type" : "Leitura" 
+        "type" : "Leitura",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor7.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/igreja.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -155,7 +421,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/cidade.jpg",
-        "type" : "City" 
+        "type" : "City",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor8.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/lazer.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -166,7 +451,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/mulher.jpg",
-        "type" : "Mulher" 
+        "type" : "Mulher",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor8.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/ferias.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -177,7 +481,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/vestuario.jpg",
-        "type" : "Vestuário" 
+        "type" : "Vestuário",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor8.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/economia.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -188,7 +511,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/montanha.jpg",
-        "type" : "Montanha" 
+        "type" : "Montanha",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor8.jpg",
+        "name": "Floyd Miles",
+        "icon": "../assets/icons/lazer.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -199,7 +541,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/comece.jpg",
-        "type" : "Arrumar" 
+        "type" : "Arrumar",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor1.jpg",
+        "name": "Anna Miles",
+        "icon": "../assets/icons/ferias.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -210,7 +571,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/aventura.jpg",
-        "type" : "Aventura" 
+        "type" : "Aventura",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor1.jpg",
+        "name": "Anna Miles",
+        "icon": "../assets/icons/tecnologia.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -221,7 +601,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/eletrico.jpg",
-        "type" : "Comece" 
+        "type" : "Comece",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor1.jpg",
+        "name": "Anna Miles",
+        "icon": "../assets/icons/rosario.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -232,7 +631,26 @@
         "date" : "May 23 2022",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/programa.jpg",
-        "type" : "Startup" 
+        "type" : "Startup",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor1.jpg",
+        "name": "Anna Miles",
+        "icon": "../assets/icons/igreja.png",
+        "titleIcon": "Economy"
+ 
     },
 
     {
@@ -243,6 +661,25 @@
         "date" : "May 23 2023",
         "desc" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
         "image": "../assets/images/bicicleta.jpg",
-        "type" : "Bom" 
+        "type" : "Bom",
+        "title1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "title2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+
+        "tema211": "Lorem ipsum dolor sit amet",
+        "tema212": "Non blandit massa enim nec scelerisque",
+        "tema213": "Neque egestas congue quisque egestas",
+
+        "title3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+        "tema3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.",
+        "readNext": "A UX Case Study Creating a Studious Environment for Students:",
+        "foto": "../assets/images/autor1.jpg",
+        "name": "Anna Miles",
+        "icon": "../assets/icons/biblia.png",
+        "titleIcon": "Economy"
+ 
     }
 ]

@@ -1,7 +1,7 @@
 .all-testemunho {
   width: 1400px;
   height: 600px;
-  margin-left: 85px;
+  margin-left: 285px;
   margin-right: 85px;
   margin-bottom: 85px;
   background-color: #FBF6EA;
@@ -129,4 +129,23 @@
   height: 50px;
   width: 50px;
   margin-left: 50px;
+}
+
+@media (max-width: 1200px) {
+  .all-testemunho {
+    width: 1000px;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 85px;
+    margin-bottom: 85px;
+    background-color: #FBF6EA;
+    padding: 45px;
+  }
+  .testemunho {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    margin-left: 50px;
+  }
 }/*# sourceMappingURL=testimoniales.css.map */

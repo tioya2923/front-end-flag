@@ -1,7 +1,7 @@
 .all-categories {
   width: 1400px;
   height: 250px;
-  margin-left: 85px;
+  margin-left: 285px;
   margin-right: 85px;
   margin-bottom: 185px;
 }
@@ -63,4 +63,60 @@ img {
 .category-title {
   font-size: 26px;
   margin-bottom: 25px;
+}
+
+@media (max-width: 1200px) {
+  .all-categories {
+    width: 1200px;
+    height: 250px;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 185px;
+  }
+  .category-card {
+    border: 1px #6D6E76 solid;
+    justify-content: space-between;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 250px;
+    position: relative;
+    overflow: visible;
+    min-width: 265px;
+    flex-shrink: unset;
+    cursor: pointer;
+  }
+}
+.category-title {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 512px) {
+  .all-categories {
+    width: 1200px;
+    height: 250px;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 185px;
+  }
+  .category-border {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+  }
+  .category-card {
+    border: 1px #6D6E76 solid;
+    justify-content: space-between;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 250px;
+    position: relative;
+    overflow: visible;
+    min-width: 265px;
+    flex-shrink: unset;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=category.css.map */

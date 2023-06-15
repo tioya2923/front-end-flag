@@ -8,8 +8,10 @@ import Contact from "./Components/Pages/Contact";
 import Subscribe from "./Components/Pages/Subscribe";
 import FooterPage from "./Components/Footer/FooterPage";
 import Privacy from "./Components/Pages/Privacy";
+import PostPage from "./Components/Pages/PostPage";
+import JoinOur from "./Components/HomePage/JoinOur";
 
-// import PostPage from "./Components/Pages/PostPage";
+
 
 
 
@@ -18,17 +20,22 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" Component={Home}/>
-        {/* <Route path="/posts/:postId" Component={Blog}/> */}
+        <Route path="/" Component={Home} />
+
         {/* <Route path="/blog/:blogId" Component={Blog}/> */}
-        <Route path="blog" Component={Blog}/>
-        <Route path="about" Component={About}/>
-        <Route path="contact" Component={Contact} />
-        <Route path="subscribe" Component={Subscribe} />
-        <Route path="privacy" Component={Privacy}/>
-        
+        <Route path="/blog" Component={Blog} />
+        <Route path="/about" Component={About} />
+        <Route path="/contact" Component={Contact} />
+        <Route path="/subscribe" Component={Subscribe} />
+        <Route path="/privacy" Component={Privacy} />
+        <Route path="/post/:type" Component={PostPage} />
+        <Route path="/blog/:type" Component={PostPage} />
+        <Route path="/element/:type" Component={PostPage} />
+
+
       </Routes>
-      <FooterPage/>
+        <JoinOur />
+       <FooterPage />
     </Router>
   );
 }

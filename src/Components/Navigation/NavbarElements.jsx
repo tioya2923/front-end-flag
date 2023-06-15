@@ -8,6 +8,7 @@ export const NavBtn = styled.nav`
   margin-right: 10px;
   justify-content: flex-end;
   margin-left: 45px;
+  max-with: 1440px;
   
   
 `;

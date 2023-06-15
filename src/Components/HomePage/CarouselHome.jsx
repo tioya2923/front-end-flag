@@ -1,18 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import "../Styles/carousel.css";
-// import ReadMore from '../ReadMore/ReadMoreLess';
+import { NavLink } from 'react-router-dom';
 
 
 const CarouselHome = ({ elements }) => {
     const [current, setCurrent] = useState(0);
     const [autoPlay, setAutoPlay] = useState(true);
     const [isReadMore, setIsReadmore] = useState(false);
-    const linkName = isReadMore ? 'fechar  ' : '  saber mais > ';
+    
 
-    // const openInNewTab = (url) => {
-    //     window.open(url, '_blank', 'noreferrer');
-    //   };
-
+ 
 
     let timeOut = null;
 
@@ -42,7 +39,7 @@ const CarouselHome = ({ elements }) => {
             <div className='carousel-wrapper'>
                 {elements.map((element, index) => {
                     return (
-                        // Condition ? true : false
+                        
                         <div key={index} className={index === current
                             ? "carousel-card carousel-card-active" : "carousel-card"}>
                             <img className='card-image'
@@ -76,13 +73,12 @@ const CarouselHome = ({ elements }) => {
                                     </div>
                                     <div className='read-more'>
 
-                                        <a className='card-read-more text-read-more-active' onClick={() => { setIsReadmore(!isReadMore) }} ><h2>{linkName}</h2></a>
+                                        <a className='card-read-more text-read-more-active' onClick={() => { setIsReadmore(!isReadMore) }} ><h2 className='text-read'> Read More</h2> </a>
 
                                     </div>
 
-                                    <div className='text-read-more'><h3>
-                                        {isReadMore && element.read}
-                                    </h3></div>
+                                    <NavLink className='read-more-blog' to={'/element/' + element.type}>
+                                            Read More</NavLink>
 
                                 </div>
                             </div>

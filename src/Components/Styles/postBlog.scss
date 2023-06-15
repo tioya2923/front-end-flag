@@ -1,13 +1,8 @@
 .all-blogs {
-    // background-color: red;
-    // display: flex;
-    // flex-direction: row;
-    // width: 100%;
-    // height: 1600px;
     margin-left: 85px;
     margin-right: 85px;
     margin-bottom: 85px;
-    max-width: 1500px;
+    max-width: 1440px;
     // background-color: red;
 }
 
@@ -27,7 +22,6 @@
 
 .blog-card {
     position: absolute;
-    // width: 100%;
     opacity: 0;
     padding: 30px;
     padding: 25px;
@@ -42,6 +36,7 @@
 .blog-overlay {
     display: flex;
     flex-direction: row;
+
 
 }
 
@@ -75,7 +70,7 @@
 .blogLine {
     display: flex;
     margin-bottom: 10px;
-    
+
 }
 
 .blogLine .blog-by {
@@ -104,7 +99,7 @@
     margin-top: 250px;
     width: 550px;
     height: 90px;
-    // background-color: yellow;
+   
 }
 
 .read-more-blog {
@@ -112,26 +107,27 @@
     padding: 16px 48px;
     width: 204px;
     height: 56px;
-    position: fixed;
     margin-top: 350px;
     position: absolute;
-   
+
 }
 
 .image-blog {
     margin-top: 15px;
-    // width: 50%;
-    //    margin-bottom: 25px;
+    position: relative;
+   
+   
 }
 
 .pagination-blog {
     margin-top: 85px;
-    // background-color: red;
-    // width: 100%;
-    height: 1500px;
-    // margin-bottom: 85px;
+    width: 100%;
+    height: 1700px;
+    position: relative;
     padding: 45px;
-    
+
+
+
 
 }
 
@@ -139,6 +135,10 @@
     width: 100%;
     height: 100%;
     margin-top: 25px;
+    position: relative;
+    
+    // overflow: scroll;
+
 }
 
 .pagination-all {
@@ -146,24 +146,25 @@
     margin-top: 1px;
     cursor: pointer;
     position: relative;
+
 }
 
 
 .pagination-overlay {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.pagination-image {
-    margin-left: 100px;
-    margin-top: 25px;
-}
+// .pagination-image {
+//     margin-left: 100px;
+//     margin-top: 25px;
+// }
 
-.pagination-about{
+.pagination-about {
     margin-right: 100px;
     margin-top: 65px;
-    
+
 }
 
 
@@ -177,7 +178,7 @@
 .pagination-largetitle {
     font-size: 22px;
     color: #232536;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
 .pagination-desc {
@@ -185,38 +186,133 @@
 }
 
 
-// PAGINATION
+//PAGINATION
+.pageNumbers {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    width: 150px;
+    height: 40px;
+    margin-left: 650px;
+    // background-color: yellowgreen;
 
-// .pagination-blog {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// 	margin-top: 50px;
-// 	gap: 20px;
-// }
+}
 
-// .pagination-blog .page-number {
-// 	font-size: 16px;
-// 	font-weight: 600;
-// 	color: #00a8ff;
-// 	background: #fff;
-// 	padding: 10px 20px;
-// 	border-radius: 10px;
-// 	cursor: pointer;
-// 	transition: all 0.5s ease;
-// }
+.pageNumbers, li {
+    list-style: none;
+}
 
-// .pagination-blog .page-number:hover {
-// 	color: #fff;
-// 	background: #00a8ff;
-// }
+.pageNumbers, button {
+    font-size: 25px;
+    margin-right: 25px;
+}
 
-// .pagination .active {
-// 	color: #fff;
-// 	background: #00a8ff;
-// }
 
-// .pagination .active:hover {
-// 	color: #00a8ff;
-// 	background: #fff;
-// }
+@media (max-width: 1200px) {
+    .nav-links ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        background-color: #FFFFFF;
+}
+    .nav-links {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #232536;
+        width: 0px;
+        height: 600px;
+       
+        transition: all 0.3s ease-in;
+     
+}
+    .nav-links.active {
+        width: 270px;
+}
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+}
+    .nav-links ul li {
+        margin-right: unset;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    .all-blogs {
+        // margin-left: 85px;
+        // margin-right: 85px;
+        // margin-bottom: 85px;
+        max-width: 900px;
+        // background-color: red;
+    }
+
+    .blog-title {
+        font-size: 10px;
+        color: #232536;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .blog-largetitle {
+        font-size: 20px;
+        color: #232536;
+        margin-bottom: 25px;
+    }
+
+    .blog-desc {
+        color: #111111;
+        line-height: 18px;
+        font-size:16px;
+        margin-bottom: 15px;
+        margin-bottom: 25px;
+        position: fixed;
+       
+        width: 350px;
+           
+    }
+    .image-blog {
+        margin-top: 15px;
+        margin-left: 10px;
+        position: relative;
+        width: 120px;
+       
+       
+    }
+    .blogLine {
+        display: flex;
+        margin-bottom: 10px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+    .read-more-blog {
+        background-color: #FFD050;
+        padding: 16px 48px;
+        width: 180px;
+        height: 30px;
+        margin-top: 350px;
+        position: absolute;
+        color: #111111;
+        
+    
+    }
+
+    .blog-border {       
+        height: 100%;        
+        background-color: #F4F0F8;
+        
+    }  
+   
+    
+    
+
+  }
+
+  

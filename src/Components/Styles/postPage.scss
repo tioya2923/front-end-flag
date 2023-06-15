@@ -1,3 +1,248 @@
-.post-page-wrapper {
-    background-color: red;
+.postPage-container {
+    // background-color: red;
+    width: 1440px;
+    margin-right: 85px;
+    margin-left: 85px;
+    padding: 45px;
+    position: relative;
+
+}
+
+
+.autor-postPage {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-bottom: 25px;
+}
+
+.image-autorPostPage {
+    margin-right: 45px;
+}
+
+.autoAll {
+    margin-top: 50px;
+
+}
+
+.largeTitle-postPage {
+    font-size: 36px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+}
+
+.category-postPage {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+}
+
+.titleIcon {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+.postPage-image {
+    margin-bottom: 50px;
+}
+
+.all-postPage {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.title1,
+.title2,
+.title3 {
+    margin-bottom: 15px;
+    margin-top: 45px;
+    font-size: 36px;
+}
+
+.tema1,
+.tema2,
+.tema21,
+.tema3 {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.pontos {
+    margin-top: 15px;
+    // background-color: yellowgreen;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.carroussel-postPage {
+    display: flex;
+    position: relative;
+    // background-color: blue;
+    margin-top: 25px;
+    width: 100%;
+    height: 500px;
+
+}
+
+.carrousel {
+    display: flex;
+    // margin-top: 25px;
+    padding: 25px;
+}
+
+
+
+.image-pageCarrouseel {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inline-postPage {
+    display: flex;
+    // margin-left: 25px;
+    text-align: justify,
+
+}
+
+.postPage-by {
+    color: black;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.inline-postPage .postPage-by {
+    color: rgb(231, 210, 15);
+}
+
+.inline-postPage .line-postPage {
+    border-right: 2px solid #161515;
+    margin-right: 6px;
+    margin-left: 6px;
+    height: 20px;
+}
+
+.inline-postPage .date-postPage {
+    color: rgb(23, 22, 22);
+}
+
+.postPage-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.desc-postPage {
+    font-size: 16px;
+}
+
+.nav-buttons {
+
+    // font-size: 70px;
+    // background-color: yellowgreen;
+    height: 70px;
+    margin: 20px auto;
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+
+    .postPage-container {
+        // background-color: red;
+        width: 1200px;
+
+        position: relative;
+
+    }
+
+    .largeTitle-postPage {
+        font-size: 36px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 25px;
+    }
+
+    .category-postPage {
+        margin-left: 200px;
+        margin-right: 200px;
+        display: flex;
+    }
+
+    .titleIcon {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+
+    .postPage-image {
+        margin-bottom: 50px;
+    }
+
+    .all-postPage {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .carroussel-postPage {
+        display: flex;
+        position: relative;
+        // background-color: blue;
+        margin-top: 25px;
+        width: 80%;
+        height: 400px;
+        margin-bottom: 100px;
+    
+    }
+
+    .postPage-by {
+        color: black;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .inline-postPage .postPage-by {
+        color: rgb(231, 210, 15);
+    }
+    
+    .inline-postPage .line-postPage {
+        border-right: 2px solid #161515;
+        margin-right: 6px;
+        margin-left: 6px;
+        height: 20px;
+    }
+    
+    .inline-postPage .date-postPage {
+        color: rgb(23, 22, 22);
+    }
+    
+    .postPage-title {
+        margin-bottom: 10px;
+        font-size: 15px;
+    
+    }
+    
+    .desc-postPage {
+        font-size: 10px;
+        width: 250px;
+    }
+
+    .nav-buttons {
+
+        // font-size: 70px;
+        // background-color: yellowgreen;
+        height: 50px;
+        margin: 20px auto;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }

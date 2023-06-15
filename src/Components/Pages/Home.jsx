@@ -8,13 +8,16 @@ import Passion from '../HomePage/Passion';
 import Authors from '../HomePage/Authors';
 import WeAre from '../HomePage/WeAre';
 import Testimonial from '../HomePage/Testimonial';
-import JoinOur from '../HomePage/JoinOur';
+
+
+
 import items from '../HomePage/HomePageData';
 // import lists from '../HomePage/PostList';
 import categories from '../HomePage/ListCategorias.json';
 import authors from '../HomePage/AuthorList.json';
 import testimonials from '../HomePage/Testimoniales.json';
 import lists from '../Pages/BlogList.json';
+
 // import pasion from '../HomePage/PassionList';
 // import tables from '../HomePage/TableList';
 //import PostPage from './PostPage';
@@ -25,20 +28,22 @@ import lists from '../Pages/BlogList.json';
 const Home = () => {
   return (
     <div>
-      
+
       <CarouselHome
         elements={items} />
 
       <Post posts={lists} />
+     
 
 
-      <Tables/>
-      <Categorias category={categories}/>
+      <Tables />
+      <Categorias category={categories} />
       <Passion />
       <Authors autores={authors} />
       <WeAre />
       <Testimonial testemunhos={testimonials} />
-      <JoinOur />
+     
+
     </div>
   );
 }

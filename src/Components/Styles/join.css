@@ -37,4 +37,14 @@
 .text-link {
   text-align: center;
   padding: 15px;
+}
+
+@media (max-width: 1200px) {
+  .all-join {
+    width: 1000px;
+    height: 500px;
+    margin-left: 85px;
+    margin-right: 85px;
+    padding: 45px;
+  }
 }/*# sourceMappingURL=join.css.map */

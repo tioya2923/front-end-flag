@@ -1,7 +1,7 @@
 .all-autores {
   width: 1400px;
   height: 250px;
-  margin-left: 85px;
+  margin-left: 285px;
   margin-right: 85px;
   margin-bottom: 185px;
 }
@@ -63,4 +63,35 @@
   margin-top: 25px;
   margin-left: 15px;
   margin-right: 25px;
+}
+
+@media (max-width: 1200px) {
+  .all-passion {
+    display: flex;
+    height: 700px;
+    width: 900px;
+    margin-bottom: 85px;
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+  .all-autores {
+    width: 900px;
+    height: 250px;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 185px;
+  }
+  .autor-card {
+    justify-content: space-between;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 250px;
+    position: relative;
+    overflow: visible;
+    min-width: 200px;
+    flex-shrink: unset;
+    cursor: pointer;
+    background-color: #f0e2e2;
+  }
 }/*# sourceMappingURL=autores.css.map */
