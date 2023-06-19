@@ -3,7 +3,8 @@
     height: 600px;
     max-width: 1440px;
     margin: 0 auto;
-    margin-bottom: 85px;
+    margin-bottom: 100px;
+    // margin-left: 400px;
 
 
 }
@@ -188,6 +189,7 @@
     bottom: 5px;
     left: 50%;
     transform: translate(-50%, 0);
+    // position: fixed;
 }
 
 .pagination-dot {
@@ -198,6 +200,7 @@
     display: inline-block;
     margin-left: 10px;
     cursor: pointer;
+    // position: fixed;
 }
 
 .pagination-dot:hover {
@@ -217,7 +220,7 @@
     
     .carousel-wrapper {
         position: relative;
-        width: 900px;
+        max-width: 1200px;
         height: 100%;
     }
 }
@@ -226,11 +229,97 @@
 @media (max-width: 576px) {
     
 
-    .carousel-wrapper {
+    .carousel {
+        display: flex;
+        height: 700px;
+        max-width: 576px;
+        margin: 0 auto;
+        margin-bottom: 100px;
         position: relative;
-        width: 510px;
-        // height: 100%;
+    
+    
     }
+
+
+
+    .carousel-card {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: none;
+        // -webik-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+        // box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+        opacity: 0;
+        pointer-events: none;
+        // transform: scale(.8);
+        transition: 0.9s ease-in-out;
+        transform: none;
+        // position: absolute;
+        // z-index: 3;
+    
+    
+    }
+    
+    .carousel-card-active {
+        opacity: 1;
+        transform: scale(1);
+       
+       
+    }
+
+    .card-all-overlay {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        background-color: rgba(34, 34, 96, 0.298);
+    
+    }
+
+    .card-overlay {
+        height: 100%;
+        width: 100%;
+        // padding: 150px 30px;
+        flex-direction: column;
+        // margin-left: 50px;
+        // margin-right: 700px;
+        justify-content: space-around;
+        
+    }
+
+    .card-desc {
+        color: #fff;
+        // line-height: 18px;
+        font-size: 20px;
+        margin-bottom: 25px;
+        width: 400px;
+        height: 100px;
+        position: relative;
+    
+    }
+
+    .card-read-more {
+        color: black;
+        cursor: pointer;
+        font-size: 10px;
+        margin: 0 auto;
+        margin-top: 25px;
+        padding: 20px;
+        height: 25px;
+        background-color: yellow;
+        text-transform: uppercase;
+        position: fixed;
+        // margin-bottom: 20px;
+        width: 204px; 
+        align-items: center;
+        position: fixed;
+    }
+
+    
+
+   
 
     
 }

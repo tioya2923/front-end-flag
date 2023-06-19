@@ -5,10 +5,10 @@ import { NavLink as Link } from "react-router-dom";
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  margin-right: 10px;
-  justify-content: flex-end;
-  margin-left: 45px;
-  max-with: 1440px;
+  // margin-right: 10px;
+  // justify-content: flex-end;
+  // margin-left: 45px;
+  // max-with: 1440px;
   
   
 `;

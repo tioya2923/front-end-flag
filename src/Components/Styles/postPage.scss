@@ -143,8 +143,7 @@
 
 .nav-buttons {
 
-    // font-size: 70px;
-    // background-color: yellowgreen;
+    
     height: 70px;
     margin: 20px auto;
     width: 290px;
@@ -155,8 +154,8 @@
 @media (max-width: 1200px) {
 
     .postPage-container {
-        // background-color: red;
-        width: 1200px;
+        
+        max-width: 1200px;
 
         position: relative;
 
@@ -191,6 +190,7 @@
         margin-left: 200px;
         margin-right: 200px;
     }
+
     .carroussel-postPage {
         display: flex;
         position: relative;
@@ -199,7 +199,7 @@
         width: 80%;
         height: 400px;
         margin-bottom: 100px;
-    
+
     }
 
     .postPage-by {
@@ -207,28 +207,28 @@
         margin-left: 5px;
         margin-bottom: 10px;
     }
-    
+
     .inline-postPage .postPage-by {
         color: rgb(231, 210, 15);
     }
-    
+
     .inline-postPage .line-postPage {
         border-right: 2px solid #161515;
         margin-right: 6px;
         margin-left: 6px;
         height: 20px;
     }
-    
+
     .inline-postPage .date-postPage {
         color: rgb(23, 22, 22);
     }
-    
+
     .postPage-title {
         margin-bottom: 10px;
         font-size: 15px;
-    
+
     }
-    
+
     .desc-postPage {
         font-size: 10px;
         width: 250px;
@@ -244,5 +244,42 @@
         display: flex;
         justify-content: space-between;
     }
-    
+
+}
+
+@media (max-width: 576px) {
+
+    .postPage-container {
+        // background-color: red;
+        max-width: 576px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0px;
+        position: relative;
+    }
+
+
+    .autor-postPage {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+
+    .largeTitle-postPage {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+
+    .all-postPage {
+        margin-left: 15px;
+        margin-right:35px;
+    }
+
+
 }

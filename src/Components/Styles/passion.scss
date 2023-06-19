@@ -1,11 +1,11 @@
 .all-passion {
     display: flex;
     height: 700px;
-    width: 1400px;
-    // border: red solid 4px;
-    margin-bottom: 85px;
-    margin-left: 285px;
-    margin-right: 185px;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 85px;   
+    // margin-left: 400px;
+    // margin-right: 185px;
 }
 
 .passion {
@@ -21,19 +21,17 @@
 
 .overlay-passion {
     height:75%;
-    width: 50%;
+    width: 64%;
     display: flex;
     position: absolute;
-    margin-left: 600px;
-    margin-top: 150px;
-    // background-color: red;
-    // position: fixed;
+    margin-left: 400px;
+    margin-top: 155px;  
     background-color: #FFFFFF;
 
 }
 
 .overlay {
-    width: 100%;
+    width: 64%;
     padding: 50px 50px;
     flex-direction: column;
     margin-left: 50px;
@@ -89,29 +87,127 @@
     .all-passion {
         display: flex;
         height: 700px;
-        width: 900px;
-        // border: red solid 4px;
+        max-width: 1200px;
+        margin: 0 auto;
         margin-bottom: 85px;
-        margin-left: 85px;
-        margin-right: 85px;
+        
     }
 
     .overlay-passion {
-        height:60%;
-        width: 40%;
+        height:74%;
+        width: 70%;
         display: flex;
         position: absolute;
-        margin-left: 500px;
-        margin-top: 140px;
-        background-color: #FFFFFF;
+        margin-left: 400px;
+        margin-top: 142px;
+        background-color: #fff;
+        
     
+    }
+
+    .title-passion {
+
+        margin-bottom: 20px;
+        line-height: 50px;
+        font-size: 20px;
+    
+    }
+    
+    .desc-passion {
+        margin-bottom: 40px;
     }
 
     .discover-passion {
         width: 230px;
         height: 55px;
         background-color: #FFD050;
-        padding: 10px;
+        // padding: 10px;
+        color: #232536;
+        align-items: center;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    
+}
+
+
+@media (max-width: 576px) {
+
+    .all-passion {
+        display: flex;
+        height: 330px;
+        max-width: 576px;
+        margin: 0 auto;
+        margin-bottom: 85px;
+        
+    }
+
+    .overlay-passion {
+        height:29%;
+        width: 75%;
+        display: flex;
+        position: absolute;
+        margin-left: 142px;
+        margin-top: 50px;
+        background-color: #fff;
+        
+    
+    }
+
+    .title-passion {
+
+        margin-bottom: 5px;
+        // line-height: 5px;
+        font-size: 16px;
+    
+    }
+    
+    .desc-passion {
+        margin-bottom: 5px;
+    }
+
+    .discover-passion {
+        width: 200px;
+        height: 30px;
+        background-color: #FFD050;
+        // padding: 10px;
+        color: #232536;
+        align-items: center;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .overlay {
+        width: 100%;
+        padding: 0px 0px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: space-around;
+        position: absolute;
+        margin-top: 0px;
+        // background-color: #FFD050;
+    }
+
+    .why-passion {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .title-passion {
+        margin-bottom: 5px;
+        line-height: 25px;
+        font-size: 16px;
+    
+    }
+
+    .discover-passion {
+        width: 250px;
+        height: 35px;
+        background-color: #FFD050;
+        padding: 16px;
         color: #232536;
         align-items: center;
         position: absolute;

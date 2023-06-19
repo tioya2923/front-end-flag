@@ -1,11 +1,9 @@
 .table {
-  width: 1400px;
+  display: flex;
   height: 500px;
-  margin-left: 295px;
-  margin-right: 85px;
+  max-width: 1440px;
+  margin: 0 auto;
   margin-bottom: 85px;
-  margin-top: 85px;
-  max-width: 1500px;
 }
 
 .table-wrapper {
@@ -85,11 +83,47 @@
 @media (max-width: 1200px) {
   .table {
     width: 1200px;
+    margin: 0 auto;
     height: 500px;
-    margin-left: 85px;
-    margin-right: 85px;
     margin-bottom: 85px;
-    margin-top: 85px;
-    max-width: 1500px;
+  }
+}
+@media (max-width: 576px) {
+  .table {
+    max-width: 576px;
+    margin: 0 auto;
+    height: 500px;
+    margin-bottom: 85px;
+  }
+  .text-tables {
+    display: flex;
+    height: 100%;
+  }
+  .about-us,
+  .our-mission {
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .text {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .text-one {
+    margin-bottom: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    max-width: 500px;
+  }
+  .text-two {
+    font-size: 15px;
+    max-width: 500px;
+  }
+  .table-read-more {
+    position: absolute;
+    font-size: 30px;
+    color: #592EA9;
+    margin-top: 370px;
+    margin-left: 75px;
   }
 }/*# sourceMappingURL=tables.css.map */

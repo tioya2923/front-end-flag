@@ -46,16 +46,24 @@ const Testimonial = ({ testemunhos }) => {
                                             <div className='testemunho-city'><h2>{testemunho.city}</h2></div>
                                         </div>
 
-                                        <div className='testemunho-direction'>
-                                            <div className="testemunhos-arrow-left" onClick={sliderLeft}>&larr;</div>
-                                            <div className="testemunhos-arrow-right" onClick={sliderRight}> &rarr;</div>
-                                        </div>
+
 
                                     </div>
 
 
+
+
                                 </div>
+
+                                <div className='testemunho-direction'>
+                                    <div className="testemunhos-arrow-left" onClick={sliderLeft}>&larr;</div>
+                                    <div className="testemunhos-arrow-right" onClick={sliderRight}> &rarr;</div>
+                                </div>
+
+
                             </div>
+
+
                         )
                     })}
                 </div>

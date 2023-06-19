@@ -9,8 +9,6 @@
   background-color: #232536;
   max-width: 1440px;
   margin: 0 auto;
-  position: relative;
-  position: sticky;
   top: 0;
 }
 
@@ -19,6 +17,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .logo {
@@ -70,9 +69,6 @@
 }
 
 @media (max-width: 1200px) {
-  .nav-links ul li:not(:last-child) {
-    margin-right: 30px;
-  }
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -84,21 +80,25 @@
     top: 60px;
     background-color: #232536;
     width: 0px;
-    height: 600px;
-    height: calc(100vh - 60px);
+    height: 630px;
     transition: all 0.3s ease-in;
   }
   .nav-links.active {
-    width: 270px;
+    width: 1200px;
+    z-index: 2;
+    align-items: center;
+    text-transform: uppercase;
   }
   .nav-links ul {
     display: flex;
     flex-direction: column;
+    margin-left: 60%;
+    font-size: 26px;
   }
   .nav-links ul li {
     margin-right: unset;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 30px;
   }
 }
 @media (max-width: 576px) {
@@ -112,18 +112,22 @@
     right: 0;
     top: 60px;
     background-color: #232536;
-    width: 512px;
-    height: 600px;
+    width: 0px;
+    height: 730px;
     transition: all 0.3s ease-in;
-    overflow: hidden;
-    position: absolute;
   }
   .nav-links.active {
-    width: 270px;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    align-items: center;
+    text-transform: uppercase;
   }
   .nav-links ul {
     display: flex;
     flex-direction: column;
+    margin-left: 50%;
+    font-size: 26px;
   }
   .nav-links ul li {
     margin-right: unset;

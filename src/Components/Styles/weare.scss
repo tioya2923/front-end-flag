@@ -1,11 +1,10 @@
 .all-weare {
-    width: 1400px;
+    max-width: 1400px;
     height: 150px;
-    margin-left: 285px;
-    margin-right: 85px;
-    margin-top: 85px;
+    margin: 0 auto;   
     margin-top: 285px;
-    // background-color: red;    
+    margin-bottom: 85px;
+       
 }
 
 .weare {
@@ -22,12 +21,33 @@
 
     
         .all-weare {
-            width: 900px;
+            max-width: 1200px;
             height: 150px;
-            margin-left: 85px;
-            margin-right: 85px;
-            margin-top: 85px;
-            margin-top: 285px;
+            padding: 25px;
+            margin-top: 185px;
+            
             // background-color: red;    
         }
+}
+
+@media (max-width: 576px) {
+
+    
+    .all-weare {
+        max-width: 576px;
+        height: 300px;
+        padding: 25px;
+        margin-top: 185px;
+        
+        // background-color: red;    
+    }
+
+    .weare {
+        display: flex;
+        flex-direction: column;       
+        text-align: center; 
+       justify-content:space-between;  
+        
+    
+    } 
 }

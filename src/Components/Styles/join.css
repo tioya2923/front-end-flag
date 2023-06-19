@@ -1,9 +1,7 @@
 .all-join {
-  width: 1400px;
+  max-width: 1400px;
+  margin: 0 auto;
   height: 500px;
-  margin-left: 85px;
-  margin-right: 85px;
-  padding: 45px;
 }
 
 .join {
@@ -41,10 +39,34 @@
 
 @media (max-width: 1200px) {
   .all-join {
-    width: 1000px;
+    max-width: 1200px;
     height: 500px;
-    margin-left: 85px;
-    margin-right: 85px;
-    padding: 45px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .all-join {
+    max-width: 576px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 25px;
+  }
+  .join {
+    font-size: 36px;
+    text-align: center;
+    color: #232536;
+    width: 100%;
+    height: 180px;
+    line-height: 80px;
+    margin: 0 auto;
+  }
+  .join-text {
+    font-size: 20px;
+    color: #6D6E76;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    text-align: center;
   }
 }/*# sourceMappingURL=join.css.map */
